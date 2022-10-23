@@ -1,6 +1,6 @@
 # Art for Everyone
 
-This project is based on the Museum of Modern Art(MOMA) open API. It is used for art lovers to find their favorite art pieces, styles, artists, history and to inspire creativities. You can search base on the styles, region, era, materials, etc. 
+This project is based on the Metropolitan Museum of Art open API. It is used for art lovers to find their favorite art pieces, styles, artists, history and to inspire creativities. You can search base on the styles, region, era, materials, etc. 
 ### Technologies used
 - JavaScript
 - html
