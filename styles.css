@@ -1,0 +1,43 @@
+h1 {
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    height: 100px;
+   
+}
+body {
+    background-color: blanchedalmond;
+    background-image: url("https://media.architecturaldigest.com/photos/60a404218bc8dc51516132b3/master/w_1600%2Cc_limit/ITM011-The-Greek-and-Roman-Galleries-scaled.jpg");
+    object-fit: 100%
+
+}
+.flex-container {
+    align-items: center;
+     max-width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap
+
+   
+}
+main {
+    justify-content: center;
+    text-align: center;
+    ;
+    
+}
+img {
+    max-width: 100%;
+}
+h2 {
+    font-size: 20px;
+    word-wrap:break-word
+
+}
+div {
+    width:fit-content
+}

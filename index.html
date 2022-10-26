@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>&#127912 Art for Everyone</title>
+    <title>Art for Everyone</title>
+    <link rel="shortcut icon"  type="image/png" href="/Users/sabrinachen/SEI-920/project1/favicon-16x16.png" />
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css"></link>
     <script src="./app.js" defer></script>
-    
+    <style>
+        .flex-container {
+          display: flex;
+        }
+        
+        .flex-container > div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+        }
+        </style>
 </head>
 <body>
     <h1>Art for Everyone</h1>
-    <div>
-        <input type="text">
-        <input type="submit">
-    </div>
-    <main>
-
-
+    <form autocomplete="off" action="action_page.php">
+        <div class="autocomplete" style="width:300px;"></div>
+        <div><input type="text" placeholder="Searcy by Artist Fullname">
+            <input type="submit" value="Search">
+        </div>
+    </form>
+    <main class="flex-container">
+       
     </main>
+   
 </body>
 </html>
