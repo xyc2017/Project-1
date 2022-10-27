@@ -1,12 +1,8 @@
-// get array of objectIDs based on the search keyword
 
 const objectIDURL = "https://collectionapi.metmuseum.org/public/collection/v1/objects"
 const titleBaseURL = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 console.log(objectIDURL)
 
-// =================================== objectID request=============================
-
-// function that does the art search
 function artistSearch(objectID){
     const url=`${titleBaseURL}${objectID}`
     $.ajax(url)
@@ -22,10 +18,12 @@ function artistSearch(objectID){
     .then((painting)=>{
         console.log(painting)
         const div=$("<div>")
-        // <h2>${painting.artistDisplayName}</h2>
         div.html(`
-       <h2>${painting.title}</h2>
         <img src="${painting.primaryImage}">
+        <h2>${painting.artistDisplayName}</h2>
+        <h2>${painting.title}</h2>
+        <h2>${painting.artistDisplayBio}</h2>
+        <h2>${painting.department}</h2>
         `)
         $main.append(div)
     })
@@ -43,5 +41,5 @@ $("input[type=submit]").on("click", (event)=>
     
     artistSearch(inputText)
 })
-//artistSearch()
+
 
