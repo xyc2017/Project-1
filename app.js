@@ -22,8 +22,8 @@ function artistSearch(objectID){
         <img src="${painting.primaryImage}">
         <h2>${painting.artistDisplayName}</h2>
         <h2>${painting.title}</h2>
-        <h2>${painting.artistDisplayBio}</h2>
-        <h2>${painting.department}</h2>
+        <h2>${painting.artistDisplayBio}</h3>
+        <h2>${painting.department}</h3>
         `)
         $main.append(div)
     })

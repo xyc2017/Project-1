@@ -9,10 +9,11 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css"></link>
     <link rel="icon" type="img/x-icon" href="favicon-32x32.png"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./app.js" defer></script>
     <style>
         .footer {
-            position:fixed;
+            position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
@@ -20,20 +21,49 @@
             color: white;
             text-align: center;
                 } 
+        .fa {
+            padding: 5px;
+            font-size: 20px;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 30%;
+            }
+            .fa:hover {
+                opacity: 0.7;
+            }
+            .fa-facebook {
+            background: #3B5998;
+            color: white;
+            }
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
+            .fa-instagram {
+            background: purple;
+            color: white;
+            }
     </style>
 </head>
 <body>
-    <h1>Art for Everyone
-    </h1>
+    <h1>Art for Everyone</h1>
     <form>
         <input class="searchbar" type="text" placeholder="Search by Artist Fullname">
         <input class="button" type="submit" value="Search">
     </form>
     <main class="flex-container">
-
+        
     </main>
    <div class="footer">
-    <p>Recommended List of Artists Fullnames</p>
+    <p>Share this site: 
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fproject-1-318ajkmnu-xyc2017.vercel.app%2F" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/intent/tweet
+        ?url=http%3A%2F%2Fproject-1-318ajkmnu-xyc2017.vercel.app/%2F" target="_blank" class="fa fa-twitter"></a>
+        Follow on instagram <a href="https://www.instagram.com/bribrina_c" target="_blank" class="fa fa-instagram"></a>
+    </p>
    </div>
    
 </body>
