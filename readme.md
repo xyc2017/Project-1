@@ -24,7 +24,7 @@ This project is based on the Metropolitan Museum of Art open API. It is used for
 | 6 | style the page |
 | 7 | present |
 ### link to project
-[My project live page](https://project-1-tan.vercel.app/)
+[My project live page](https://project-1-xyc2017.vercel.app/)
 
 list of famous artists
 - Jacques-Louis David
